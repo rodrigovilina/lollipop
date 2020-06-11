@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - README now includes a version badge 😉.
 
+### Fixed
+- When using on proyects with different `bundler` versions the gem wouldn't run,
+  so the way the gems where being checked was changed from using
+  `Bundler.load.specs` to `File.read('Gemfile.lock')`
+
 ## [0.1.0] - 2020-06-11
 ### Added
 - Basic repo setup.
