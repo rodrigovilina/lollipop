@@ -1,0 +1,45 @@
+---
+pre-push:
+  commands:
+    gems-audit:
+      run: bundle audit
+    rubocop:
+      run: bin/rubocop -fs
+    sorbet:
+      run: bin/srb t
+    flay:
+      run: bin/flay
+    flog:
+      run: bin/flog
+    sandi_meter:
+      run: sandi_meter -d -l
+
+pre-commit:
+  commands:
+    rubocop:
+      run: bin/rubocop -fs
+    sorbet:
+      run: bin/srb t
+    flay:
+      run: bin/flay
+    flog:
+      run: bin/flog
+    sandi_meter:
+      run: sandi_meter -d -l
+
+audit:
+  commands:
+    gems-audit:
+      run: bundle audit
+    rubocop:
+      run: bin/rubocop -fs
+    sorbet:
+      run: bin/srb t
+    flay:
+      run: bin/flay
+    flog:
+      run: bin/flog
+    libyear:
+      run: bin/libyear-bundler --all
+    sandi_meter:
+      run: sandi_meter -d -l

@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require 'bundler/setup'
+require_relative '../lib/lollipop'
+
+@gems = Bundler.load.specs.map(&:name)
+
+def log_installed_gem(gem)
+  puts "\u{1f44d} #{gem}"
+end
+
+def log_not_installed_gem(gem)
+  puts "\u{1f645} #{gem}"
+end
+
+def log_gem(gem)
+  if @gems.include? gem
+    log_installed_gem(gem)
+  else
+    log_not_installed_gem(gem)
+  end
+end
+
+%w[
+  bundler-audit crystalball flay flog guard guard-shell lefthook libyear-bundler
+  rspec rubocop rubocop-performance rubocop-rspec rubocop-sorbet sandi_meter
+  sorbet sorbet-runtime
+].each(&method(:log_gem))
