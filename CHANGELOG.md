@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2] - 2020-06-11
+### Fixed
+- Stop requiring `bundler`, since this errs on proyects with different `bundler`
+  versions.
+
 ## [0.1.1] - 2020-06-11
 ### Changed
 - README now includes a version badge 😉.
@@ -21,4 +26,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `lollipop` script, that checks your bundle for the precense of an opinionated
   list of development gems.
 
-[0.0.1]: https://github.com/vaporyhumo/lollipop/releases/tag/v0.1.0
+[0.1.0]: https://github.com/vaporyhumo/lollipop/releases/tag/v0.1.0
+[0.1.1]: https://github.com/vaporyhumo/lollipop/releases/tag/v0.1.1
+[0.1.2]: https://github.com/vaporyhumo/lollipop/releases/tag/v0.1.2
