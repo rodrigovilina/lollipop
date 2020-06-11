@@ -4,7 +4,7 @@
 require 'bundler/setup'
 require_relative '../lib/lollipop'
 
-@gems = Bundler.load.specs.map(&:name)
+@gems = File.read('Gemfile.lock').split
 
 def log_installed_gem(gem)
   puts "\u{1f44d} #{gem}"
