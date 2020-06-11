@@ -1,4 +1,4 @@
-# Lollipop
+# Lollipop [![Gem Version](https://badge.fury.io/rb/lollipop.svg)](https://badge.fury.io/rb/lollipop)
 
 Lollipop intends to help you set up a repo for fast development. For now, it
 checks for the precense of a specific list of gems.
