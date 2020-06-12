@@ -116,7 +116,7 @@ GEM
     shellany (0.0.1)
     sorbet (0.5.5745)
       sorbet-static (= 0.5.5745)
-    sorbet-runtime (0.5.5745)
+    sorbet-runtime (0.5.5753)
     sorbet-static (0.5.5745-universal-darwin-14)
     thor (0.20.3)
     unicode-display_width (1.7.0)
