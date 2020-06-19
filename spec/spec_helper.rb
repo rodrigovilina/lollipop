@@ -2,6 +2,8 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
+require 'sorbet-runtime'
+require 'support/simplecov'
 require 'lollipop'
 
 RSpec.configure do |config|

@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require_relative '../lib/lollipop'
+
+return unless ARGV[0] == 'install'
+
+Lollipop.install

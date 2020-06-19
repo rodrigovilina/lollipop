@@ -7,7 +7,7 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/rubocop-rspec/all/rubocop-rspec.rbi
 #
-# rubocop-rspec-1.39.0
+# rubocop-rspec-1.40.0
 
 module RuboCop
 end
@@ -132,46 +132,16 @@ class RuboCop::RSpec::Hook < RuboCop::RSpec::Concept
   def transform_true(node); end
   def valid_scope?(node); end
 end
-module RuboCop::Cop
+module RuboCop::RSpec::Variable
+  def variable_definition?(node = nil); end
+  extend RuboCop::AST::NodePattern::Macros
+  include RuboCop::RSpec::Language
 end
-class RuboCop::Cop::WorkaroundCop
-  def add_offense(node, location: nil, message: nil, severity: nil); end
-  def annotate(message); end
-  def config; end
-  def config_to_allow_offenses; end
-  def config_to_allow_offenses=(hash); end
-  def cop_config; end
-  def cop_name; end
-  def correct(node); end
-  def corrections; end
-  def custom_severity; end
-  def default_severity; end
-  def disable_uncorrectable(node); end
-  def duplicate_location?(location); end
-  def enabled_line?(line_number); end
-  def excluded_file?(file); end
-  def external_dependency_checksum; end
-  def file_name_matches_any?(file, parameter, default_result); end
-  def find_location(node, loc); end
-  def find_message(node, message); end
-  def find_severity(_node, severity); end
-  def initialize(config = nil, options = nil); end
-  def join_force?(_force_class); end
-  def message(_node = nil); end
-  def name; end
-  def offenses; end
-  def parse(source, path = nil); end
-  def processed_source; end
-  def processed_source=(arg0); end
-  def reason_to_not_correct(node); end
-  def relevant_file?(file); end
-  def self.<(other); end
-  def target_rails_version; end
-  def target_ruby_version; end
+module RuboCop::Cop
 end
 module RuboCop::Cop::RSpec
 end
-class RuboCop::Cop::RSpec::Cop < RuboCop::Cop::WorkaroundCop
+class RuboCop::Cop::RSpec::Cop < RuboCop::Cop::Cop
   def all_cops_config; end
   def relevant_file?(file); end
   def relevant_rubocop_rspec_file?(file); end
@@ -249,6 +219,7 @@ class RuboCop::Cop::RSpec::Capybara::FeatureMethods < RuboCop::Cop::RSpec::Cop
   def spec?(node = nil); end
 end
 class RuboCop::Cop::RSpec::Capybara::VisibilityMatcher < RuboCop::Cop::RSpec::Cop
+  def capybara_matcher?(method_name); end
   def on_send(node); end
   def visible_false?(node = nil); end
   def visible_true?(node = nil); end
@@ -504,12 +475,14 @@ class RuboCop::Cop::RSpec::FilePath < RuboCop::Cop::RSpec::Cop
   def expected_path(constant); end
   def filename_ends_with?(glob); end
   def glob_for(arg0); end
+  def glob_for_spec_suffix_only?; end
   def ignore_methods?; end
   def name_glob(name); end
   def on_top_level_describe(node, args); end
   def relevant_rubocop_rspec_file?(_file); end
   def routing_metadata?(node0); end
   def routing_spec?(args); end
+  def spec_suffix_only?; end
   include RuboCop::RSpec::TopLevelDescribe
 end
 class RuboCop::Cop::RSpec::Focus < RuboCop::Cop::RSpec::Cop
@@ -788,6 +761,7 @@ end
 class RuboCop::Cop::RSpec::RepeatedExampleGroupBody < RuboCop::Cop::RSpec::Cop
   def add_repeated_lines(groups); end
   def body(node = nil); end
+  def const_arg(node = nil); end
   def message(group, repeats); end
   def metadata(node = nil); end
   def on_begin(node); end
@@ -885,13 +859,12 @@ class RuboCop::Cop::RSpec::SingleArgumentMessageChain < RuboCop::Cop::RSpec::Cop
   def valid_usage?(node); end
 end
 class RuboCop::Cop::RSpec::SubjectStub < RuboCop::Cop::RSpec::Cop
-  def find_subject(node, parent: nil, &block); end
-  def find_subject_expectation(node, subject_name, &block); end
-  def find_subject_stub(node, &block); end
+  def find_all_explicit_subjects(node); end
+  def find_subject_expectations(node, subject_names = nil, &block); end
   def message_expectation?(node = nil, param1); end
   def message_expectation_matcher?(node0); end
   def on_block(node); end
-  def redefines_subject?(node); end
+  def processed_example_groups; end
   def subject(node = nil); end
 end
 class RuboCop::Cop::RSpec::UnspecifiedException < RuboCop::Cop::RSpec::Cop
@@ -899,6 +872,20 @@ class RuboCop::Cop::RSpec::UnspecifiedException < RuboCop::Cop::RSpec::Cop
   def empty_exception_matcher?(node); end
   def empty_raise_error_or_exception(node = nil); end
   def on_send(node); end
+end
+class RuboCop::Cop::RSpec::VariableDefinition < RuboCop::Cop::RSpec::Cop
+  def on_send(node); end
+  def string?(node); end
+  def style_violation?(variable); end
+  def symbol?(node); end
+  include RuboCop::Cop::ConfigurableEnforcedStyle
+  include RuboCop::RSpec::Variable
+end
+class RuboCop::Cop::RSpec::VariableName < RuboCop::Cop::RSpec::Cop
+  def message(style); end
+  def on_send(node); end
+  include RuboCop::Cop::ConfigurableNaming
+  include RuboCop::RSpec::Variable
 end
 class RuboCop::Cop::RSpec::VerifiedDoubles < RuboCop::Cop::RSpec::Cop
   def on_send(node); end

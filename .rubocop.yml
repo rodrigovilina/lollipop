@@ -27,6 +27,9 @@ Layout/HashAlignment:
 Layout/LineLength:
   Max: 80
 
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+
 Metrics/BlockLength:
   Exclude: []
   ExcludedMethods:
@@ -48,6 +51,9 @@ Style/AsciiComments:
   Enabled: false
 
 Style/Documentation:
+  Enabled: false
+
+Style/EmptyCaseCondition:
   Enabled: false
 
 Style/EmptyMethod:

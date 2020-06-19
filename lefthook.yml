@@ -1,8 +1,8 @@
 ---
 pre-push:
   commands:
-    gems-audit:
-      run: bundle audit
+    bundle-audit:
+      run: bin/bundle-audit check --update
     rubocop:
       run: bin/rubocop -fs
     sorbet:
@@ -12,7 +12,9 @@ pre-push:
     flog:
       run: bin/flog
     sandi_meter:
-      run: sandi_meter -d -l
+      run: bin/sandi_meter -d -l
+    rspec:
+      run: bin/rspec
 
 pre-commit:
   commands:
@@ -25,12 +27,14 @@ pre-commit:
     flog:
       run: bin/flog
     sandi_meter:
-      run: sandi_meter -d -l
+      run: bin/sandi_meter -d -l
+    rspec:
+      run: bin/rspec
 
 audit:
   commands:
-    gems-audit:
-      run: bundle audit
+    bundle-audit:
+      run: bin/bundle-audit check --update
     rubocop:
       run: bin/rubocop -fs
     sorbet:
@@ -40,6 +44,8 @@ audit:
     flog:
       run: bin/flog
     libyear:
-      run: bin/libyear-bundler --all
+      run: bin/libyear-bundler Gemfile --all
     sandi_meter:
-      run: sandi_meter -d -l
+      run: bin/sandi_meter -d -l
+    rspec:
+      run: bin/rspec

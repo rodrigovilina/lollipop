@@ -2,3 +2,5 @@
 .ruby-version
 lollipop*gem
 log/
+coverage/
+.byebug_history

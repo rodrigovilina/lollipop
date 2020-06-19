@@ -2,5 +2,7 @@
 # frozen_string_literal: true
 
 module Lollipop
-  VERSION = '0.2.0'
+  sig { void }
+  def self.install
+  end
 end

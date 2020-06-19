@@ -7,10 +7,11 @@
 #
 #   https://github.com/sorbet/sorbet-typed/new/master?filename=lib/lumberjack/all/lumberjack.rbi
 #
-# lumberjack-1.2.5
+# lumberjack-1.2.6
 
 module Lumberjack
   def self.context; end
+  def self.context?; end
   def self.context_tags; end
   def self.tag(tags); end
   def self.unit_of_work(id = nil); end
@@ -213,6 +214,7 @@ class Lumberjack::Logger
   def progname; end
   def progname=(arg0); end
   def push_thread_local_value(name, value); end
+  def remove_tag(*tag_names); end
   def reopen(logdev = nil); end
   def set_progname(value, &block); end
   def set_thread_local_value(name, value); end

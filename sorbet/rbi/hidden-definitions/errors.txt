@@ -99,7 +99,6 @@
 # wrong constant name <RESERVED_89>
 # wrong constant name <RESERVED_8>
 # wrong constant name <RESERVED_90>
-# wrong constant name <RESERVED_91>
 # wrong constant name <RESERVED_9>
 # wrong constant name <TypeAlias>
 # wrong constant name <TypeAlias>
@@ -2952,6 +2951,7 @@
 # wrong constant name <=>
 # uninitialized constant Gem::Specification::GENERICS
 # uninitialized constant Gem::Specification::GENERIC_CACHE
+# wrong constant name removed_method_calls
 # wrong constant name to_ruby
 # undefined method `validate<defaultArg>1' for class `Gem::SpecificationPolicy'
 # wrong constant name initialize
@@ -2995,7 +2995,6 @@
 # wrong constant name try_convert
 # undefined method `read_nonblock<defaultArg>1' for class `IO'
 # undefined method `read_nonblock<defaultArg>2' for class `IO'
-# undefined method `write_nonblock<defaultArg>1' for class `IO'
 # wrong constant name <Class:ConsoleMode>
 # wrong constant name beep
 # wrong constant name check_winsize_changed
@@ -3041,7 +3040,6 @@
 # wrong constant name wait_writable
 # wrong constant name winsize
 # wrong constant name winsize=
-# wrong constant name write_nonblock<defaultArg>1
 # wrong constant name echo=
 # wrong constant name raw
 # wrong constant name raw!
@@ -3334,48 +3332,48 @@
 # uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Id_C
 # Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Version_C
 # uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision
-# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_R
-#                Parser::Ruby24::Racc_Runtime_Core_Revision_C
+# Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby24::Racc_Runtime_Revision
 #                Parser::Ruby24::Racc_Runtime_Core_Version
-#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Version
 #                Parser::Ruby24::Racc_Runtime_Core_Id_C
 # uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision_C
 # Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby24::Racc_Runtime_Revision
-#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version
 #                Parser::Ruby24::Racc_Runtime_Core_Id_C
 # uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Revision_R
 # Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Revision_C
 #                Parser::Ruby24::Racc_Runtime_Revision
-#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version_C
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version
 # uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Version
 # Did you mean?  Parser::Ruby24::Racc_Runtime_Revision
 #                Parser::Ruby24::Racc_Runtime_Core_Revision
-#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Version_C
-#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
+#                Parser::Ruby24::Racc_Runtime_Core_Version_R
 #                Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby24::Racc_Runtime_Version
 #                Parser::Ruby24::Racc_Runtime_Core_Id_C
 # uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Version_C
 # Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Version_R
-#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby24::Racc_Runtime_Revision
 #                Parser::Ruby24::Racc_Runtime_Core_Revision
 #                Parser::Ruby24::Racc_Runtime_Version
 #                Parser::Ruby24::Racc_Runtime_Core_Id_C
 # uninitialized constant Parser::Ruby24::Racc_Runtime_Core_Version_R
 # Did you mean?  Parser::Ruby24::Racc_Runtime_Core_Version_C
-#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby24::Racc_Runtime_Core_Revision_C
+#                Parser::Ruby24::Racc_Runtime_Core_Revision_R
 #                Parser::Ruby24::Racc_Runtime_Revision
 #                Parser::Ruby24::Racc_Runtime_Core_Revision
 #                Parser::Ruby24::Racc_Runtime_Version
@@ -3542,7 +3540,8 @@
 # wrong constant name fire_update!<defaultArg>2
 # wrong constant name fire_update!
 # wrong constant name ruby
-# wrong constant name completion_quote_character
+# uninitialized constant Readline
+# uninitialized constant Readline
 # uninitialized constant Regexp::Parser::VERSION_CONST_REGEXP
 # uninitialized constant Regexp::Parser::VERSION_FORMAT
 # uninitialized constant Regexp::Parser::VERSION_REGEXP
@@ -3589,6 +3588,25 @@
 # uninitialized constant Ripper
 # uninitialized constant Ripper
 # uninitialized constant RuboCop::Cop::Lint::FormatParameterMismatch::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Capybara::VisibilityMatcher::ALL
+# uninitialized constant RuboCop::Cop::RSpec::Capybara::VisibilityMatcher::DEFAULT_CONFIGURATION
+# uninitialized constant RuboCop::Cop::RSpec::Capybara::VisibilityMatcher::DEFAULT_PATTERN_RE
+# uninitialized constant RuboCop::Cop::RSpec::Capybara::VisibilityMatcher::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::Capybara::VisibilityMatcher::RSPEC
+# Did you mean?  RuboCop::RSpec
+# uninitialized constant RuboCop::Cop::RSpec::VariableDefinition::ALL
+# uninitialized constant RuboCop::Cop::RSpec::VariableDefinition::DEFAULT_CONFIGURATION
+# uninitialized constant RuboCop::Cop::RSpec::VariableDefinition::DEFAULT_PATTERN_RE
+# uninitialized constant RuboCop::Cop::RSpec::VariableDefinition::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::VariableDefinition::RSPEC
+# Did you mean?  RuboCop::RSpec
+# uninitialized constant RuboCop::Cop::RSpec::VariableName::ALL
+# uninitialized constant RuboCop::Cop::RSpec::VariableName::DEFAULT_CONFIGURATION
+# uninitialized constant RuboCop::Cop::RSpec::VariableName::DEFAULT_PATTERN_RE
+# uninitialized constant RuboCop::Cop::RSpec::VariableName::FORMATS
+# uninitialized constant RuboCop::Cop::RSpec::VariableName::LITERAL_REGEX
+# uninitialized constant RuboCop::Cop::RSpec::VariableName::RSPEC
+# Did you mean?  RuboCop::RSpec
 # uninitialized constant RuboCop::Cop::Sorbet::EnforceSigilOrder::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Sorbet::EnforceSigilOrder::SIGIL_REGEX
 # uninitialized constant RuboCop::Cop::Sorbet::EnforceSigilOrder::STRICTNESS_LEVELS
@@ -3599,7 +3617,6 @@
 # uninitialized constant RuboCop::Cop::Sorbet::ValidSigil::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::RedundantConditional::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::RedundantConditional::SPACE
-# wrong constant name exclude_from_registry
 # uninitialized constant Ruby20Parser::ARG_TYPES
 # uninitialized constant Ruby20Parser::ENCODING_ORDER
 # Did you mean?  EncodingError
@@ -3607,13 +3624,13 @@
 # Did you mean?  Ruby20Parser::EXPR_PAR
 #                Ruby20Parser::EXPR_BEG
 # uninitialized constant Ruby20Parser::EXPR_ARG_ANY
-# Did you mean?  Ruby20Parser::EXPR_END_ANY
-#                Ruby20Parser::EXPR_BEG_ANY
+# Did you mean?  Ruby20Parser::EXPR_BEG_ANY
+#                Ruby20Parser::EXPR_END_ANY
 # uninitialized constant Ruby20Parser::EXPR_BEG
 # Did you mean?  Ruby20Parser::EXPR_ARG
 # uninitialized constant Ruby20Parser::EXPR_BEG_ANY
-# Did you mean?  Ruby20Parser::EXPR_END_ANY
-#                Ruby20Parser::EXPR_ARG_ANY
+# Did you mean?  Ruby20Parser::EXPR_ARG_ANY
+#                Ruby20Parser::EXPR_END_ANY
 # uninitialized constant Ruby20Parser::EXPR_CLASS
 # Did you mean?  Ruby20Parser::EXPR_LAB
 # uninitialized constant Ruby20Parser::EXPR_CMDARG
@@ -3680,48 +3697,48 @@
 # uninitialized constant Ruby20Parser::Racc_Runtime_Core_Id_C
 # Did you mean?  Ruby20Parser::Racc_Runtime_Core_Version_C
 # uninitialized constant Ruby20Parser::Racc_Runtime_Core_Revision
-# Did you mean?  Ruby20Parser::Racc_Runtime_Core_Revision_R
-#                Ruby20Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  Ruby20Parser::Racc_Runtime_Core_Revision_C
+#                Ruby20Parser::Racc_Runtime_Core_Revision_R
 #                Ruby20Parser::Racc_Runtime_Revision
 #                Ruby20Parser::Racc_Runtime_Core_Version
-#                Ruby20Parser::Racc_Runtime_Core_Version_R
 #                Ruby20Parser::Racc_Runtime_Core_Version_C
+#                Ruby20Parser::Racc_Runtime_Core_Version_R
 #                Ruby20Parser::Racc_Runtime_Version
 #                Ruby20Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby20Parser::Racc_Runtime_Core_Revision_C
 # Did you mean?  Ruby20Parser::Racc_Runtime_Core_Revision_R
 #                Ruby20Parser::Racc_Runtime_Revision
-#                Ruby20Parser::Racc_Runtime_Core_Version_R
 #                Ruby20Parser::Racc_Runtime_Core_Version_C
+#                Ruby20Parser::Racc_Runtime_Core_Version_R
 #                Ruby20Parser::Racc_Runtime_Core_Version
 #                Ruby20Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby20Parser::Racc_Runtime_Core_Revision_R
 # Did you mean?  Ruby20Parser::Racc_Runtime_Core_Revision_C
 #                Ruby20Parser::Racc_Runtime_Revision
-#                Ruby20Parser::Racc_Runtime_Core_Version_R
 #                Ruby20Parser::Racc_Runtime_Core_Version_C
+#                Ruby20Parser::Racc_Runtime_Core_Version_R
 #                Ruby20Parser::Racc_Runtime_Core_Version
 # uninitialized constant Ruby20Parser::Racc_Runtime_Core_Version
 # Did you mean?  Ruby20Parser::Racc_Runtime_Revision
 #                Ruby20Parser::Racc_Runtime_Core_Revision
-#                Ruby20Parser::Racc_Runtime_Core_Version_R
 #                Ruby20Parser::Racc_Runtime_Core_Version_C
-#                Ruby20Parser::Racc_Runtime_Core_Revision_R
+#                Ruby20Parser::Racc_Runtime_Core_Version_R
 #                Ruby20Parser::Racc_Runtime_Core_Revision_C
+#                Ruby20Parser::Racc_Runtime_Core_Revision_R
 #                Ruby20Parser::Racc_Runtime_Version
 #                Ruby20Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby20Parser::Racc_Runtime_Core_Version_C
 # Did you mean?  Ruby20Parser::Racc_Runtime_Core_Version_R
-#                Ruby20Parser::Racc_Runtime_Core_Revision_R
 #                Ruby20Parser::Racc_Runtime_Core_Revision_C
+#                Ruby20Parser::Racc_Runtime_Core_Revision_R
 #                Ruby20Parser::Racc_Runtime_Revision
 #                Ruby20Parser::Racc_Runtime_Core_Revision
 #                Ruby20Parser::Racc_Runtime_Version
 #                Ruby20Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby20Parser::Racc_Runtime_Core_Version_R
 # Did you mean?  Ruby20Parser::Racc_Runtime_Core_Version_C
-#                Ruby20Parser::Racc_Runtime_Core_Revision_R
 #                Ruby20Parser::Racc_Runtime_Core_Revision_C
+#                Ruby20Parser::Racc_Runtime_Core_Revision_R
 #                Ruby20Parser::Racc_Runtime_Revision
 #                Ruby20Parser::Racc_Runtime_Core_Revision
 #                Ruby20Parser::Racc_Runtime_Version
@@ -3783,13 +3800,13 @@
 # Did you mean?  Ruby21Parser::EXPR_PAR
 #                Ruby21Parser::EXPR_BEG
 # uninitialized constant Ruby21Parser::EXPR_ARG_ANY
-# Did you mean?  Ruby21Parser::EXPR_END_ANY
-#                Ruby21Parser::EXPR_BEG_ANY
+# Did you mean?  Ruby21Parser::EXPR_BEG_ANY
+#                Ruby21Parser::EXPR_END_ANY
 # uninitialized constant Ruby21Parser::EXPR_BEG
 # Did you mean?  Ruby21Parser::EXPR_ARG
 # uninitialized constant Ruby21Parser::EXPR_BEG_ANY
-# Did you mean?  Ruby21Parser::EXPR_END_ANY
-#                Ruby21Parser::EXPR_ARG_ANY
+# Did you mean?  Ruby21Parser::EXPR_ARG_ANY
+#                Ruby21Parser::EXPR_END_ANY
 # uninitialized constant Ruby21Parser::EXPR_CLASS
 # Did you mean?  Ruby21Parser::EXPR_LAB
 # uninitialized constant Ruby21Parser::EXPR_CMDARG
@@ -3856,48 +3873,48 @@
 # uninitialized constant Ruby21Parser::Racc_Runtime_Core_Id_C
 # Did you mean?  Ruby21Parser::Racc_Runtime_Core_Version_C
 # uninitialized constant Ruby21Parser::Racc_Runtime_Core_Revision
-# Did you mean?  Ruby21Parser::Racc_Runtime_Core_Revision_R
-#                Ruby21Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  Ruby21Parser::Racc_Runtime_Core_Revision_C
+#                Ruby21Parser::Racc_Runtime_Core_Revision_R
 #                Ruby21Parser::Racc_Runtime_Revision
 #                Ruby21Parser::Racc_Runtime_Core_Version
-#                Ruby21Parser::Racc_Runtime_Core_Version_R
 #                Ruby21Parser::Racc_Runtime_Core_Version_C
+#                Ruby21Parser::Racc_Runtime_Core_Version_R
 #                Ruby21Parser::Racc_Runtime_Version
 #                Ruby21Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby21Parser::Racc_Runtime_Core_Revision_C
 # Did you mean?  Ruby21Parser::Racc_Runtime_Core_Revision_R
 #                Ruby21Parser::Racc_Runtime_Revision
-#                Ruby21Parser::Racc_Runtime_Core_Version_R
 #                Ruby21Parser::Racc_Runtime_Core_Version_C
+#                Ruby21Parser::Racc_Runtime_Core_Version_R
 #                Ruby21Parser::Racc_Runtime_Core_Version
 #                Ruby21Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby21Parser::Racc_Runtime_Core_Revision_R
 # Did you mean?  Ruby21Parser::Racc_Runtime_Core_Revision_C
 #                Ruby21Parser::Racc_Runtime_Revision
-#                Ruby21Parser::Racc_Runtime_Core_Version_R
 #                Ruby21Parser::Racc_Runtime_Core_Version_C
+#                Ruby21Parser::Racc_Runtime_Core_Version_R
 #                Ruby21Parser::Racc_Runtime_Core_Version
 # uninitialized constant Ruby21Parser::Racc_Runtime_Core_Version
 # Did you mean?  Ruby21Parser::Racc_Runtime_Revision
 #                Ruby21Parser::Racc_Runtime_Core_Revision
-#                Ruby21Parser::Racc_Runtime_Core_Version_R
 #                Ruby21Parser::Racc_Runtime_Core_Version_C
-#                Ruby21Parser::Racc_Runtime_Core_Revision_R
+#                Ruby21Parser::Racc_Runtime_Core_Version_R
 #                Ruby21Parser::Racc_Runtime_Core_Revision_C
+#                Ruby21Parser::Racc_Runtime_Core_Revision_R
 #                Ruby21Parser::Racc_Runtime_Version
 #                Ruby21Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby21Parser::Racc_Runtime_Core_Version_C
 # Did you mean?  Ruby21Parser::Racc_Runtime_Core_Version_R
-#                Ruby21Parser::Racc_Runtime_Core_Revision_R
 #                Ruby21Parser::Racc_Runtime_Core_Revision_C
+#                Ruby21Parser::Racc_Runtime_Core_Revision_R
 #                Ruby21Parser::Racc_Runtime_Revision
 #                Ruby21Parser::Racc_Runtime_Core_Revision
 #                Ruby21Parser::Racc_Runtime_Version
 #                Ruby21Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby21Parser::Racc_Runtime_Core_Version_R
 # Did you mean?  Ruby21Parser::Racc_Runtime_Core_Version_C
-#                Ruby21Parser::Racc_Runtime_Core_Revision_R
 #                Ruby21Parser::Racc_Runtime_Core_Revision_C
+#                Ruby21Parser::Racc_Runtime_Core_Revision_R
 #                Ruby21Parser::Racc_Runtime_Revision
 #                Ruby21Parser::Racc_Runtime_Core_Revision
 #                Ruby21Parser::Racc_Runtime_Version
@@ -3959,13 +3976,13 @@
 # Did you mean?  Ruby22Parser::EXPR_PAR
 #                Ruby22Parser::EXPR_BEG
 # uninitialized constant Ruby22Parser::EXPR_ARG_ANY
-# Did you mean?  Ruby22Parser::EXPR_END_ANY
-#                Ruby22Parser::EXPR_BEG_ANY
+# Did you mean?  Ruby22Parser::EXPR_BEG_ANY
+#                Ruby22Parser::EXPR_END_ANY
 # uninitialized constant Ruby22Parser::EXPR_BEG
 # Did you mean?  Ruby22Parser::EXPR_ARG
 # uninitialized constant Ruby22Parser::EXPR_BEG_ANY
-# Did you mean?  Ruby22Parser::EXPR_END_ANY
-#                Ruby22Parser::EXPR_ARG_ANY
+# Did you mean?  Ruby22Parser::EXPR_ARG_ANY
+#                Ruby22Parser::EXPR_END_ANY
 # uninitialized constant Ruby22Parser::EXPR_CLASS
 # Did you mean?  Ruby22Parser::EXPR_LAB
 # uninitialized constant Ruby22Parser::EXPR_CMDARG
@@ -4032,48 +4049,48 @@
 # uninitialized constant Ruby22Parser::Racc_Runtime_Core_Id_C
 # Did you mean?  Ruby22Parser::Racc_Runtime_Core_Version_C
 # uninitialized constant Ruby22Parser::Racc_Runtime_Core_Revision
-# Did you mean?  Ruby22Parser::Racc_Runtime_Core_Revision_R
-#                Ruby22Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  Ruby22Parser::Racc_Runtime_Core_Revision_C
+#                Ruby22Parser::Racc_Runtime_Core_Revision_R
 #                Ruby22Parser::Racc_Runtime_Revision
 #                Ruby22Parser::Racc_Runtime_Core_Version
-#                Ruby22Parser::Racc_Runtime_Core_Version_R
 #                Ruby22Parser::Racc_Runtime_Core_Version_C
+#                Ruby22Parser::Racc_Runtime_Core_Version_R
 #                Ruby22Parser::Racc_Runtime_Version
 #                Ruby22Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby22Parser::Racc_Runtime_Core_Revision_C
 # Did you mean?  Ruby22Parser::Racc_Runtime_Core_Revision_R
 #                Ruby22Parser::Racc_Runtime_Revision
-#                Ruby22Parser::Racc_Runtime_Core_Version_R
 #                Ruby22Parser::Racc_Runtime_Core_Version_C
+#                Ruby22Parser::Racc_Runtime_Core_Version_R
 #                Ruby22Parser::Racc_Runtime_Core_Version
 #                Ruby22Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby22Parser::Racc_Runtime_Core_Revision_R
 # Did you mean?  Ruby22Parser::Racc_Runtime_Core_Revision_C
 #                Ruby22Parser::Racc_Runtime_Revision
-#                Ruby22Parser::Racc_Runtime_Core_Version_R
 #                Ruby22Parser::Racc_Runtime_Core_Version_C
+#                Ruby22Parser::Racc_Runtime_Core_Version_R
 #                Ruby22Parser::Racc_Runtime_Core_Version
 # uninitialized constant Ruby22Parser::Racc_Runtime_Core_Version
 # Did you mean?  Ruby22Parser::Racc_Runtime_Revision
 #                Ruby22Parser::Racc_Runtime_Core_Revision
-#                Ruby22Parser::Racc_Runtime_Core_Version_R
 #                Ruby22Parser::Racc_Runtime_Core_Version_C
-#                Ruby22Parser::Racc_Runtime_Core_Revision_R
+#                Ruby22Parser::Racc_Runtime_Core_Version_R
 #                Ruby22Parser::Racc_Runtime_Core_Revision_C
+#                Ruby22Parser::Racc_Runtime_Core_Revision_R
 #                Ruby22Parser::Racc_Runtime_Version
 #                Ruby22Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby22Parser::Racc_Runtime_Core_Version_C
 # Did you mean?  Ruby22Parser::Racc_Runtime_Core_Version_R
-#                Ruby22Parser::Racc_Runtime_Core_Revision_R
 #                Ruby22Parser::Racc_Runtime_Core_Revision_C
+#                Ruby22Parser::Racc_Runtime_Core_Revision_R
 #                Ruby22Parser::Racc_Runtime_Revision
 #                Ruby22Parser::Racc_Runtime_Core_Revision
 #                Ruby22Parser::Racc_Runtime_Version
 #                Ruby22Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby22Parser::Racc_Runtime_Core_Version_R
 # Did you mean?  Ruby22Parser::Racc_Runtime_Core_Version_C
-#                Ruby22Parser::Racc_Runtime_Core_Revision_R
 #                Ruby22Parser::Racc_Runtime_Core_Revision_C
+#                Ruby22Parser::Racc_Runtime_Core_Revision_R
 #                Ruby22Parser::Racc_Runtime_Revision
 #                Ruby22Parser::Racc_Runtime_Core_Revision
 #                Ruby22Parser::Racc_Runtime_Version
@@ -4135,13 +4152,13 @@
 # Did you mean?  Ruby23Parser::EXPR_PAR
 #                Ruby23Parser::EXPR_BEG
 # uninitialized constant Ruby23Parser::EXPR_ARG_ANY
-# Did you mean?  Ruby23Parser::EXPR_END_ANY
-#                Ruby23Parser::EXPR_BEG_ANY
+# Did you mean?  Ruby23Parser::EXPR_BEG_ANY
+#                Ruby23Parser::EXPR_END_ANY
 # uninitialized constant Ruby23Parser::EXPR_BEG
 # Did you mean?  Ruby23Parser::EXPR_ARG
 # uninitialized constant Ruby23Parser::EXPR_BEG_ANY
-# Did you mean?  Ruby23Parser::EXPR_END_ANY
-#                Ruby23Parser::EXPR_ARG_ANY
+# Did you mean?  Ruby23Parser::EXPR_ARG_ANY
+#                Ruby23Parser::EXPR_END_ANY
 # uninitialized constant Ruby23Parser::EXPR_CLASS
 # Did you mean?  Ruby23Parser::EXPR_LAB
 # uninitialized constant Ruby23Parser::EXPR_CMDARG
@@ -4208,48 +4225,48 @@
 # uninitialized constant Ruby23Parser::Racc_Runtime_Core_Id_C
 # Did you mean?  Ruby23Parser::Racc_Runtime_Core_Version_C
 # uninitialized constant Ruby23Parser::Racc_Runtime_Core_Revision
-# Did you mean?  Ruby23Parser::Racc_Runtime_Core_Revision_R
-#                Ruby23Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  Ruby23Parser::Racc_Runtime_Core_Revision_C
+#                Ruby23Parser::Racc_Runtime_Core_Revision_R
 #                Ruby23Parser::Racc_Runtime_Revision
 #                Ruby23Parser::Racc_Runtime_Core_Version
-#                Ruby23Parser::Racc_Runtime_Core_Version_R
 #                Ruby23Parser::Racc_Runtime_Core_Version_C
+#                Ruby23Parser::Racc_Runtime_Core_Version_R
 #                Ruby23Parser::Racc_Runtime_Version
 #                Ruby23Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby23Parser::Racc_Runtime_Core_Revision_C
 # Did you mean?  Ruby23Parser::Racc_Runtime_Core_Revision_R
 #                Ruby23Parser::Racc_Runtime_Revision
-#                Ruby23Parser::Racc_Runtime_Core_Version_R
 #                Ruby23Parser::Racc_Runtime_Core_Version_C
+#                Ruby23Parser::Racc_Runtime_Core_Version_R
 #                Ruby23Parser::Racc_Runtime_Core_Version
 #                Ruby23Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby23Parser::Racc_Runtime_Core_Revision_R
 # Did you mean?  Ruby23Parser::Racc_Runtime_Core_Revision_C
 #                Ruby23Parser::Racc_Runtime_Revision
-#                Ruby23Parser::Racc_Runtime_Core_Version_R
 #                Ruby23Parser::Racc_Runtime_Core_Version_C
+#                Ruby23Parser::Racc_Runtime_Core_Version_R
 #                Ruby23Parser::Racc_Runtime_Core_Version
 # uninitialized constant Ruby23Parser::Racc_Runtime_Core_Version
 # Did you mean?  Ruby23Parser::Racc_Runtime_Revision
 #                Ruby23Parser::Racc_Runtime_Core_Revision
-#                Ruby23Parser::Racc_Runtime_Core_Version_R
 #                Ruby23Parser::Racc_Runtime_Core_Version_C
-#                Ruby23Parser::Racc_Runtime_Core_Revision_R
+#                Ruby23Parser::Racc_Runtime_Core_Version_R
 #                Ruby23Parser::Racc_Runtime_Core_Revision_C
+#                Ruby23Parser::Racc_Runtime_Core_Revision_R
 #                Ruby23Parser::Racc_Runtime_Version
 #                Ruby23Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby23Parser::Racc_Runtime_Core_Version_C
 # Did you mean?  Ruby23Parser::Racc_Runtime_Core_Version_R
-#                Ruby23Parser::Racc_Runtime_Core_Revision_R
 #                Ruby23Parser::Racc_Runtime_Core_Revision_C
+#                Ruby23Parser::Racc_Runtime_Core_Revision_R
 #                Ruby23Parser::Racc_Runtime_Revision
 #                Ruby23Parser::Racc_Runtime_Core_Revision
 #                Ruby23Parser::Racc_Runtime_Version
 #                Ruby23Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby23Parser::Racc_Runtime_Core_Version_R
 # Did you mean?  Ruby23Parser::Racc_Runtime_Core_Version_C
-#                Ruby23Parser::Racc_Runtime_Core_Revision_R
 #                Ruby23Parser::Racc_Runtime_Core_Revision_C
+#                Ruby23Parser::Racc_Runtime_Core_Revision_R
 #                Ruby23Parser::Racc_Runtime_Revision
 #                Ruby23Parser::Racc_Runtime_Core_Revision
 #                Ruby23Parser::Racc_Runtime_Version
@@ -4311,13 +4328,13 @@
 # Did you mean?  Ruby24Parser::EXPR_PAR
 #                Ruby24Parser::EXPR_BEG
 # uninitialized constant Ruby24Parser::EXPR_ARG_ANY
-# Did you mean?  Ruby24Parser::EXPR_END_ANY
-#                Ruby24Parser::EXPR_BEG_ANY
+# Did you mean?  Ruby24Parser::EXPR_BEG_ANY
+#                Ruby24Parser::EXPR_END_ANY
 # uninitialized constant Ruby24Parser::EXPR_BEG
 # Did you mean?  Ruby24Parser::EXPR_ARG
 # uninitialized constant Ruby24Parser::EXPR_BEG_ANY
-# Did you mean?  Ruby24Parser::EXPR_END_ANY
-#                Ruby24Parser::EXPR_ARG_ANY
+# Did you mean?  Ruby24Parser::EXPR_ARG_ANY
+#                Ruby24Parser::EXPR_END_ANY
 # uninitialized constant Ruby24Parser::EXPR_CLASS
 # Did you mean?  Ruby24Parser::EXPR_LAB
 # uninitialized constant Ruby24Parser::EXPR_CMDARG
@@ -4384,48 +4401,48 @@
 # uninitialized constant Ruby24Parser::Racc_Runtime_Core_Id_C
 # Did you mean?  Ruby24Parser::Racc_Runtime_Core_Version_C
 # uninitialized constant Ruby24Parser::Racc_Runtime_Core_Revision
-# Did you mean?  Ruby24Parser::Racc_Runtime_Core_Revision_R
-#                Ruby24Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  Ruby24Parser::Racc_Runtime_Core_Revision_C
+#                Ruby24Parser::Racc_Runtime_Core_Revision_R
 #                Ruby24Parser::Racc_Runtime_Revision
 #                Ruby24Parser::Racc_Runtime_Core_Version
-#                Ruby24Parser::Racc_Runtime_Core_Version_R
 #                Ruby24Parser::Racc_Runtime_Core_Version_C
+#                Ruby24Parser::Racc_Runtime_Core_Version_R
 #                Ruby24Parser::Racc_Runtime_Version
 #                Ruby24Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby24Parser::Racc_Runtime_Core_Revision_C
 # Did you mean?  Ruby24Parser::Racc_Runtime_Core_Revision_R
 #                Ruby24Parser::Racc_Runtime_Revision
-#                Ruby24Parser::Racc_Runtime_Core_Version_R
 #                Ruby24Parser::Racc_Runtime_Core_Version_C
+#                Ruby24Parser::Racc_Runtime_Core_Version_R
 #                Ruby24Parser::Racc_Runtime_Core_Version
 #                Ruby24Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby24Parser::Racc_Runtime_Core_Revision_R
 # Did you mean?  Ruby24Parser::Racc_Runtime_Core_Revision_C
 #                Ruby24Parser::Racc_Runtime_Revision
-#                Ruby24Parser::Racc_Runtime_Core_Version_R
 #                Ruby24Parser::Racc_Runtime_Core_Version_C
+#                Ruby24Parser::Racc_Runtime_Core_Version_R
 #                Ruby24Parser::Racc_Runtime_Core_Version
 # uninitialized constant Ruby24Parser::Racc_Runtime_Core_Version
 # Did you mean?  Ruby24Parser::Racc_Runtime_Revision
 #                Ruby24Parser::Racc_Runtime_Core_Revision
-#                Ruby24Parser::Racc_Runtime_Core_Version_R
 #                Ruby24Parser::Racc_Runtime_Core_Version_C
-#                Ruby24Parser::Racc_Runtime_Core_Revision_R
+#                Ruby24Parser::Racc_Runtime_Core_Version_R
 #                Ruby24Parser::Racc_Runtime_Core_Revision_C
+#                Ruby24Parser::Racc_Runtime_Core_Revision_R
 #                Ruby24Parser::Racc_Runtime_Version
 #                Ruby24Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby24Parser::Racc_Runtime_Core_Version_C
 # Did you mean?  Ruby24Parser::Racc_Runtime_Core_Version_R
-#                Ruby24Parser::Racc_Runtime_Core_Revision_R
 #                Ruby24Parser::Racc_Runtime_Core_Revision_C
+#                Ruby24Parser::Racc_Runtime_Core_Revision_R
 #                Ruby24Parser::Racc_Runtime_Revision
 #                Ruby24Parser::Racc_Runtime_Core_Revision
 #                Ruby24Parser::Racc_Runtime_Version
 #                Ruby24Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby24Parser::Racc_Runtime_Core_Version_R
 # Did you mean?  Ruby24Parser::Racc_Runtime_Core_Version_C
-#                Ruby24Parser::Racc_Runtime_Core_Revision_R
 #                Ruby24Parser::Racc_Runtime_Core_Revision_C
+#                Ruby24Parser::Racc_Runtime_Core_Revision_R
 #                Ruby24Parser::Racc_Runtime_Revision
 #                Ruby24Parser::Racc_Runtime_Core_Revision
 #                Ruby24Parser::Racc_Runtime_Version
@@ -4487,13 +4504,13 @@
 # Did you mean?  Ruby25Parser::EXPR_PAR
 #                Ruby25Parser::EXPR_BEG
 # uninitialized constant Ruby25Parser::EXPR_ARG_ANY
-# Did you mean?  Ruby25Parser::EXPR_END_ANY
-#                Ruby25Parser::EXPR_BEG_ANY
+# Did you mean?  Ruby25Parser::EXPR_BEG_ANY
+#                Ruby25Parser::EXPR_END_ANY
 # uninitialized constant Ruby25Parser::EXPR_BEG
 # Did you mean?  Ruby25Parser::EXPR_ARG
 # uninitialized constant Ruby25Parser::EXPR_BEG_ANY
-# Did you mean?  Ruby25Parser::EXPR_END_ANY
-#                Ruby25Parser::EXPR_ARG_ANY
+# Did you mean?  Ruby25Parser::EXPR_ARG_ANY
+#                Ruby25Parser::EXPR_END_ANY
 # uninitialized constant Ruby25Parser::EXPR_CLASS
 # Did you mean?  Ruby25Parser::EXPR_LAB
 # uninitialized constant Ruby25Parser::EXPR_CMDARG
@@ -4560,48 +4577,48 @@
 # uninitialized constant Ruby25Parser::Racc_Runtime_Core_Id_C
 # Did you mean?  Ruby25Parser::Racc_Runtime_Core_Version_C
 # uninitialized constant Ruby25Parser::Racc_Runtime_Core_Revision
-# Did you mean?  Ruby25Parser::Racc_Runtime_Core_Revision_R
-#                Ruby25Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  Ruby25Parser::Racc_Runtime_Core_Revision_C
+#                Ruby25Parser::Racc_Runtime_Core_Revision_R
 #                Ruby25Parser::Racc_Runtime_Revision
 #                Ruby25Parser::Racc_Runtime_Core_Version
-#                Ruby25Parser::Racc_Runtime_Core_Version_R
 #                Ruby25Parser::Racc_Runtime_Core_Version_C
+#                Ruby25Parser::Racc_Runtime_Core_Version_R
 #                Ruby25Parser::Racc_Runtime_Version
 #                Ruby25Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby25Parser::Racc_Runtime_Core_Revision_C
 # Did you mean?  Ruby25Parser::Racc_Runtime_Core_Revision_R
 #                Ruby25Parser::Racc_Runtime_Revision
-#                Ruby25Parser::Racc_Runtime_Core_Version_R
 #                Ruby25Parser::Racc_Runtime_Core_Version_C
+#                Ruby25Parser::Racc_Runtime_Core_Version_R
 #                Ruby25Parser::Racc_Runtime_Core_Version
 #                Ruby25Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby25Parser::Racc_Runtime_Core_Revision_R
 # Did you mean?  Ruby25Parser::Racc_Runtime_Core_Revision_C
 #                Ruby25Parser::Racc_Runtime_Revision
-#                Ruby25Parser::Racc_Runtime_Core_Version_R
 #                Ruby25Parser::Racc_Runtime_Core_Version_C
+#                Ruby25Parser::Racc_Runtime_Core_Version_R
 #                Ruby25Parser::Racc_Runtime_Core_Version
 # uninitialized constant Ruby25Parser::Racc_Runtime_Core_Version
 # Did you mean?  Ruby25Parser::Racc_Runtime_Revision
 #                Ruby25Parser::Racc_Runtime_Core_Revision
-#                Ruby25Parser::Racc_Runtime_Core_Version_R
 #                Ruby25Parser::Racc_Runtime_Core_Version_C
-#                Ruby25Parser::Racc_Runtime_Core_Revision_R
+#                Ruby25Parser::Racc_Runtime_Core_Version_R
 #                Ruby25Parser::Racc_Runtime_Core_Revision_C
+#                Ruby25Parser::Racc_Runtime_Core_Revision_R
 #                Ruby25Parser::Racc_Runtime_Version
 #                Ruby25Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby25Parser::Racc_Runtime_Core_Version_C
 # Did you mean?  Ruby25Parser::Racc_Runtime_Core_Version_R
-#                Ruby25Parser::Racc_Runtime_Core_Revision_R
 #                Ruby25Parser::Racc_Runtime_Core_Revision_C
+#                Ruby25Parser::Racc_Runtime_Core_Revision_R
 #                Ruby25Parser::Racc_Runtime_Revision
 #                Ruby25Parser::Racc_Runtime_Core_Revision
 #                Ruby25Parser::Racc_Runtime_Version
 #                Ruby25Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby25Parser::Racc_Runtime_Core_Version_R
 # Did you mean?  Ruby25Parser::Racc_Runtime_Core_Version_C
-#                Ruby25Parser::Racc_Runtime_Core_Revision_R
 #                Ruby25Parser::Racc_Runtime_Core_Revision_C
+#                Ruby25Parser::Racc_Runtime_Core_Revision_R
 #                Ruby25Parser::Racc_Runtime_Revision
 #                Ruby25Parser::Racc_Runtime_Core_Revision
 #                Ruby25Parser::Racc_Runtime_Version
@@ -4663,13 +4680,13 @@
 # Did you mean?  Ruby26Parser::EXPR_PAR
 #                Ruby26Parser::EXPR_BEG
 # uninitialized constant Ruby26Parser::EXPR_ARG_ANY
-# Did you mean?  Ruby26Parser::EXPR_END_ANY
-#                Ruby26Parser::EXPR_BEG_ANY
+# Did you mean?  Ruby26Parser::EXPR_BEG_ANY
+#                Ruby26Parser::EXPR_END_ANY
 # uninitialized constant Ruby26Parser::EXPR_BEG
 # Did you mean?  Ruby26Parser::EXPR_ARG
 # uninitialized constant Ruby26Parser::EXPR_BEG_ANY
-# Did you mean?  Ruby26Parser::EXPR_END_ANY
-#                Ruby26Parser::EXPR_ARG_ANY
+# Did you mean?  Ruby26Parser::EXPR_ARG_ANY
+#                Ruby26Parser::EXPR_END_ANY
 # uninitialized constant Ruby26Parser::EXPR_CLASS
 # Did you mean?  Ruby26Parser::EXPR_LAB
 # uninitialized constant Ruby26Parser::EXPR_CMDARG
@@ -4736,48 +4753,48 @@
 # uninitialized constant Ruby26Parser::Racc_Runtime_Core_Id_C
 # Did you mean?  Ruby26Parser::Racc_Runtime_Core_Version_C
 # uninitialized constant Ruby26Parser::Racc_Runtime_Core_Revision
-# Did you mean?  Ruby26Parser::Racc_Runtime_Core_Revision_R
-#                Ruby26Parser::Racc_Runtime_Core_Revision_C
+# Did you mean?  Ruby26Parser::Racc_Runtime_Core_Revision_C
+#                Ruby26Parser::Racc_Runtime_Core_Revision_R
 #                Ruby26Parser::Racc_Runtime_Revision
 #                Ruby26Parser::Racc_Runtime_Core_Version
-#                Ruby26Parser::Racc_Runtime_Core_Version_R
 #                Ruby26Parser::Racc_Runtime_Core_Version_C
+#                Ruby26Parser::Racc_Runtime_Core_Version_R
 #                Ruby26Parser::Racc_Runtime_Version
 #                Ruby26Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby26Parser::Racc_Runtime_Core_Revision_C
 # Did you mean?  Ruby26Parser::Racc_Runtime_Core_Revision_R
 #                Ruby26Parser::Racc_Runtime_Revision
-#                Ruby26Parser::Racc_Runtime_Core_Version_R
 #                Ruby26Parser::Racc_Runtime_Core_Version_C
+#                Ruby26Parser::Racc_Runtime_Core_Version_R
 #                Ruby26Parser::Racc_Runtime_Core_Version
 #                Ruby26Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby26Parser::Racc_Runtime_Core_Revision_R
 # Did you mean?  Ruby26Parser::Racc_Runtime_Core_Revision_C
 #                Ruby26Parser::Racc_Runtime_Revision
-#                Ruby26Parser::Racc_Runtime_Core_Version_R
 #                Ruby26Parser::Racc_Runtime_Core_Version_C
+#                Ruby26Parser::Racc_Runtime_Core_Version_R
 #                Ruby26Parser::Racc_Runtime_Core_Version
 # uninitialized constant Ruby26Parser::Racc_Runtime_Core_Version
 # Did you mean?  Ruby26Parser::Racc_Runtime_Revision
 #                Ruby26Parser::Racc_Runtime_Core_Revision
-#                Ruby26Parser::Racc_Runtime_Core_Version_R
 #                Ruby26Parser::Racc_Runtime_Core_Version_C
-#                Ruby26Parser::Racc_Runtime_Core_Revision_R
+#                Ruby26Parser::Racc_Runtime_Core_Version_R
 #                Ruby26Parser::Racc_Runtime_Core_Revision_C
+#                Ruby26Parser::Racc_Runtime_Core_Revision_R
 #                Ruby26Parser::Racc_Runtime_Version
 #                Ruby26Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby26Parser::Racc_Runtime_Core_Version_C
 # Did you mean?  Ruby26Parser::Racc_Runtime_Core_Version_R
-#                Ruby26Parser::Racc_Runtime_Core_Revision_R
 #                Ruby26Parser::Racc_Runtime_Core_Revision_C
+#                Ruby26Parser::Racc_Runtime_Core_Revision_R
 #                Ruby26Parser::Racc_Runtime_Revision
 #                Ruby26Parser::Racc_Runtime_Core_Revision
 #                Ruby26Parser::Racc_Runtime_Version
 #                Ruby26Parser::Racc_Runtime_Core_Id_C
 # uninitialized constant Ruby26Parser::Racc_Runtime_Core_Version_R
 # Did you mean?  Ruby26Parser::Racc_Runtime_Core_Version_C
-#                Ruby26Parser::Racc_Runtime_Core_Revision_R
 #                Ruby26Parser::Racc_Runtime_Core_Revision_C
+#                Ruby26Parser::Racc_Runtime_Core_Revision_R
 #                Ruby26Parser::Racc_Runtime_Revision
 #                Ruby26Parser::Racc_Runtime_Core_Revision
 #                Ruby26Parser::Racc_Runtime_Version
@@ -4836,13 +4853,13 @@
 # Did you mean?  RubyLexer::EXPR_PAR
 #                RubyLexer::EXPR_BEG
 # uninitialized constant RubyLexer::EXPR_ARG_ANY
-# Did you mean?  RubyLexer::EXPR_END_ANY
-#                RubyLexer::EXPR_BEG_ANY
+# Did you mean?  RubyLexer::EXPR_BEG_ANY
+#                RubyLexer::EXPR_END_ANY
 # uninitialized constant RubyLexer::EXPR_BEG
 # Did you mean?  RubyLexer::EXPR_ARG
 # uninitialized constant RubyLexer::EXPR_BEG_ANY
-# Did you mean?  RubyLexer::EXPR_END_ANY
-#                RubyLexer::EXPR_ARG_ANY
+# Did you mean?  RubyLexer::EXPR_ARG_ANY
+#                RubyLexer::EXPR_END_ANY
 # uninitialized constant RubyLexer::EXPR_CLASS
 # Did you mean?  RubyLexer::EXPR_LAB
 # uninitialized constant RubyLexer::EXPR_CMDARG
@@ -4947,13 +4964,13 @@
 # Did you mean?  RubyParserStuff::Keyword::EXPR_PAR
 #                RubyParserStuff::Keyword::EXPR_BEG
 # uninitialized constant RubyParserStuff::Keyword::EXPR_ARG_ANY
-# Did you mean?  RubyParserStuff::Keyword::EXPR_END_ANY
-#                RubyParserStuff::Keyword::EXPR_BEG_ANY
+# Did you mean?  RubyParserStuff::Keyword::EXPR_BEG_ANY
+#                RubyParserStuff::Keyword::EXPR_END_ANY
 # uninitialized constant RubyParserStuff::Keyword::EXPR_BEG
 # Did you mean?  RubyParserStuff::Keyword::EXPR_ARG
 # uninitialized constant RubyParserStuff::Keyword::EXPR_BEG_ANY
-# Did you mean?  RubyParserStuff::Keyword::EXPR_END_ANY
-#                RubyParserStuff::Keyword::EXPR_ARG_ANY
+# Did you mean?  RubyParserStuff::Keyword::EXPR_ARG_ANY
+#                RubyParserStuff::Keyword::EXPR_END_ANY
 # uninitialized constant RubyParserStuff::Keyword::EXPR_CLASS
 # Did you mean?  RubyParserStuff::Keyword::EXPR_LAB
 # uninitialized constant RubyParserStuff::Keyword::EXPR_CMDARG
@@ -5081,8 +5098,6 @@
 # uninitialized constant Scanf
 # uninitialized constant Scanf
 # undefined method `flatten_merge<defaultArg>1' for class `Set'
-# undefined method `initialize<defaultArg>1' for class `Set'
-# Did you mean?  initialize_dup
 # wrong constant name ==
 # wrong constant name ===
 # wrong constant name compare_by_identity
@@ -5091,7 +5106,6 @@
 # wrong constant name eql?
 # wrong constant name flatten_merge<defaultArg>1
 # wrong constant name flatten_merge
-# wrong constant name initialize<defaultArg>1
 # wrong constant name pretty_print
 # wrong constant name pretty_print_cycle
 # wrong constant name reset
@@ -5193,18 +5207,8 @@
 # wrong constant name call
 # wrong constant name initialize
 # wrong constant name <static-init>
-# undefined method `help<defaultArg>1' for class `Thor'
-# undefined method `help<defaultArg>2' for class `Thor'
 # wrong constant name <Class:RakeCompat>
 # uninitialized constant Thor::SHELL_DELEGATED_METHODS
-# wrong constant name help<defaultArg>1
-# wrong constant name help<defaultArg>2
-# wrong constant name help
-# undefined method `_invoke_for_class_method<defaultArg>1' for class `Thor::Group'
-# uninitialized constant Thor::Group::SHELL_DELEGATED_METHODS
-# Did you mean?  Thor::SHELL_DELEGATED_METHODS
-# wrong constant name _invoke_for_class_method<defaultArg>1
-# wrong constant name _invoke_for_class_method
 # uninitialized constant Thor::Options::NUMERIC
 # Did you mean?  Numeric
 # uninitialized constant Thor::RakeCompat::DEFAULT
@@ -5231,6 +5235,7 @@
 # undefined method `say<defaultArg>3' for class `Thor::Shell::Basic'
 # undefined method `say_status<defaultArg>1' for class `Thor::Shell::Basic'
 # undefined method `yes?<defaultArg>1' for class `Thor::Shell::Basic'
+# wrong constant name answer_match
 # wrong constant name as_unicode
 # wrong constant name ask
 # wrong constant name ask_filtered
@@ -5281,6 +5286,7 @@
 # wrong constant name yes?
 # wrong constant name <static-init>
 # uninitialized constant Thor::Shell::Color::DEFAULT_TERMINAL_WIDTH
+# wrong constant name are_colors_disabled?
 # wrong constant name diff_lcs_loaded?
 # wrong constant name output_diff_line
 # wrong constant name set_color
@@ -5406,11 +5412,7 @@
 # wrong constant name regexp
 # wrong constant name split
 # wrong constant name make_components_hash
-# undefined singleton method `extract<defaultArg>1' for `URI'
-# undefined singleton method `regexp<defaultArg>1' for `URI'
-# wrong constant name extract<defaultArg>1
 # wrong constant name get_encoding
-# wrong constant name regexp<defaultArg>1
 # wrong constant name bind_call
 # wrong constant name <static-init>
 # uninitialized constant Vector

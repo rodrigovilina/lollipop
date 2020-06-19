@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = Dir['lib/**/{*,.*}']
   spec.bindir        = 'exe'
-  spec.executables   = ['lollipop']
+  spec.executables   = %w[lollipop lol]
 
   spec.required_ruby_version = '>= 2.4.0'
 end

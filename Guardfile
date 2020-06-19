@@ -15,11 +15,32 @@
 #  $ mv Guardfile config/
 #  $ ln -s config/Guardfile .
 #
-# and, you'll have to watch "config/Guardfile" instead of "Guardfile"
+# and, you'll have to watch 'config/Guardfile' instead of 'Guardfile'
 
 # Add files and commands to this file, like the example:
 #   watch(%r{file/path}) { `command(s)` }
-#
+
+ignore(/\.rspec_status/)
+ignore(/coverage/)
+
 guard :shell do
-  watch(/(.*).rb/) { |m| `tail #{m[0]}` }
+  watch(/(.*)/) do |m|
+    `bin/rubocop -fs #{m[0]} --force-exclusion`
+    `bin/srb`
+  end
+end
+
+guard :rspec, cmd: 'bin/rspec' do
+  require 'guard/rspec/dsl'
+  dsl = Guard::RSpec::Dsl.new(self)
+
+  # RSpec files
+  rspec = dsl.rspec
+  watch(rspec.spec_helper) { rspec.spec_dir }
+  watch(rspec.spec_support) { rspec.spec_dir }
+  watch(rspec.spec_files)
+
+  # Ruby files
+  ruby = dsl.ruby
+  dsl.watch_spec_files_for(ruby.lib_files)
 end

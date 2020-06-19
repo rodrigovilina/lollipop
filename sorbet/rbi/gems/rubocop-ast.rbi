@@ -180,10 +180,12 @@ class RuboCop::AST::Node < Parser::AST::Node
   def erange_type?; end
   def false_type?; end
   def falsey_literal?; end
+  def find_pattern_type?; end
   def first_line; end
   def float_type?; end
   def for_type?; end
   def for_value_used?; end
+  def forward_arg_type?; end
   def forward_args_type?; end
   def forwarded_args_type?; end
   def guard_clause?; end

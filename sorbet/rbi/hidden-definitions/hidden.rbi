@@ -83,6 +83,19 @@ class Addrinfo
   def connect_internal(local_addrinfo, timeout=T.unsafe(nil)); end
 end
 
+class AmazingPrint::Formatter
+  CORE_FORMATTERS = ::T.let(nil, ::T.untyped)
+end
+
+class AmazingPrint::Formatters::BaseFormatter
+  DEFAULT_LIMIT_SIZE = ::T.let(nil, ::T.untyped)
+  INDENT_CACHE = ::T.let(nil, ::T.untyped)
+end
+
+class AmazingPrint::Inspector
+  AP = ::T.let(nil, ::T.untyped)
+end
+
 class Array
   include ::JSON::Ext::Generator::GeneratorMethods::Array
   def deconstruct(); end
@@ -3254,6 +3267,16 @@ class Dir
 
 end
 
+module Docile
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class Docile::FallbackContextProxy
+  NON_FALLBACK_METHODS = ::T.let(nil, ::T.untyped)
+  NON_PROXIED_INSTANCE_VARIABLES = ::T.let(nil, ::T.untyped)
+  NON_PROXIED_METHODS = ::T.let(nil, ::T.untyped)
+end
+
 class ERB
   def def_method(mod, methodname, fname=T.unsafe(nil)); end
 
@@ -4073,7 +4096,10 @@ end
 class Gem::Specification
   include ::Bundler::MatchPlatform
   include ::Bundler::GemHelpers
+  def removed_method_calls(); end
+
   def to_ruby(); end
+  REMOVED_METHODS = ::T.let(nil, ::T.untyped)
 end
 
 class Gem::Specification
@@ -4243,6 +4269,18 @@ class Guard::PluginUtil
   INFO_ADDED_GUARD_TO_GUARDFILE = ::T.let(nil, ::T.untyped)
 end
 
+class Guard::RSpec::Command
+  FAILURE_EXIT_CODE = ::T.let(nil, ::T.untyped)
+end
+
+module Guard::RSpec::Options
+  DEFAULTS = ::T.let(nil, ::T.untyped)
+end
+
+class Guard::RSpecDefaults
+  TEMPORARY_FILE_PATH = ::T.let(nil, ::T.untyped)
+end
+
 class Guard::Runner
   ADDITION_TASKS = ::T.let(nil, ::T.untyped)
   MODIFICATION_TASKS = ::T.let(nil, ::T.untyped)
@@ -4384,7 +4422,6 @@ class IO
   def winsize(); end
 
   def winsize=(winsize); end
-
 end
 
 class IO::ConsoleMode
@@ -4677,8 +4714,6 @@ class Net::HTTP
   ENVIRONMENT_VARIABLE_IS_MULTIUSER_SAFE = ::T.let(nil, ::T.untyped)
 end
 
-Net::HTTP::ProxyMod = Net::HTTP::ProxyDelta
-
 class Net::HTTPAlreadyReported
   HAS_BODY = ::T.let(nil, ::T.untyped)
 end
@@ -4775,7 +4810,13 @@ Net::HTTPServerErrorCode = Net::HTTPServerError
 
 Net::HTTPSession = Net::HTTP
 
-Net::HTTPSuccessCode = Net::HTTPSuccess
+class Net::HTTPSuccess
+end
+
+Net::HTTPSuccessCode::EXCEPTION_TYPE = Net::HTTPError
+
+class Net::HTTPSuccess
+end
 
 class Net::HTTPURITooLong
   HAS_BODY = ::T.let(nil, ::T.untyped)
@@ -5786,10 +5827,6 @@ module RbConfig
   def self.ruby(); end
 end
 
-module Readline
-  def self.completion_quote_character(); end
-end
-
 class Regexp
   ENC_EUC = ::T.let(nil, ::T.untyped)
   ENC_NONE = ::T.let(nil, ::T.untyped)
@@ -6108,6 +6145,18 @@ class RuboCop::Cop::Lint::FormatParameterMismatch
   MSG_INVALID = ::T.let(nil, ::T.untyped)
 end
 
+class RuboCop::Cop::RSpec::Capybara::VisibilityMatcher
+  CAPYBARA_MATCHER_METHODS = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::VariableDefinition
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
+class RuboCop::Cop::RSpec::VariableName
+  MSG = ::T.let(nil, ::T.untyped)
+end
+
 class RuboCop::Cop::Sorbet::EnforceSigilOrder
   CODING_REGEX = ::T.let(nil, ::T.untyped)
   FROZEN_REGEX = ::T.let(nil, ::T.untyped)
@@ -6139,10 +6188,6 @@ end
 
 class RuboCop::Cop::Style::RedundantConditional
   COMPARISON_OPERATOR_MATCHER = ::T.let(nil, ::T.untyped)
-end
-
-class RuboCop::Cop::WorkaroundCop
-  def self.exclude_from_registry(); end
 end
 
 module RuboCop::Sorbet
@@ -6357,6 +6402,43 @@ module Shellany
   VERSION = ::T.let(nil, ::T.untyped)
 end
 
+module SimpleCov
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+module SimpleCov::Configuration
+  DEFAULT_COVERAGE_CRITERION = ::T.let(nil, ::T.untyped)
+  SUPPORTED_COVERAGE_CRITERIA = ::T.let(nil, ::T.untyped)
+end
+
+module SimpleCov::ExitCodes
+  EXCEPTION = ::T.let(nil, ::T.untyped)
+  MAXIMUM_COVERAGE_DROP = ::T.let(nil, ::T.untyped)
+  MINIMUM_COVERAGE = ::T.let(nil, ::T.untyped)
+  SUCCESS = ::T.let(nil, ::T.untyped)
+end
+
+class SimpleCov::Formatter::HTMLFormatter
+  VERSION = ::T.let(nil, ::T.untyped)
+end
+
+class SimpleCov::LinesClassifier
+  COMMENT_LINE = ::T.let(nil, ::T.untyped)
+  NOT_RELEVANT = ::T.let(nil, ::T.untyped)
+  RELEVANT = ::T.let(nil, ::T.untyped)
+  WHITESPACE_LINE = ::T.let(nil, ::T.untyped)
+  WHITESPACE_OR_COMMENT_LINE = ::T.let(nil, ::T.untyped)
+end
+
+class SimpleCov::SourceFile
+  RUBY_FILE_ENCODING_MAGIC_COMMENT_REGEX = ::T.let(nil, ::T.untyped)
+  SHEBANG_REGEX = ::T.let(nil, ::T.untyped)
+end
+
+module SimpleCov::UselessResultsRemover
+  ROOT_REGX = ::T.let(nil, ::T.untyped)
+end
+
 class SimpleDelegator
   RUBYGEMS_ACTIVATION_MONITOR = ::T.let(nil, ::T.untyped)
 end
@@ -6408,10 +6490,6 @@ class String
   def shellsplit(); end
 end
 
-class String
-  extend ::JSON::Ext::Generator::GeneratorMethods::String::Extend
-end
-
 class StringIO
   def set_encoding_by_bom(); end
   VERSION = ::T.let(nil, ::T.untyped)
@@ -6458,10 +6536,13 @@ class Tempfile::Remover
 end
 
 class Thor
-  def help(command=T.unsafe(nil), subcommand=T.unsafe(nil)); end
   HELP_MAPPINGS = ::T.let(nil, ::T.untyped)
   TEMPLATE_EXTNAME = ::T.let(nil, ::T.untyped)
   THOR_RESERVED_WORDS = ::T.let(nil, ::T.untyped)
+end
+
+module Thor::Actions
+  WARNINGS = ::T.let(nil, ::T.untyped)
 end
 
 Thor::AmbiguousTaskError = Thor::AmbiguousCommandError
@@ -6481,10 +6562,6 @@ end
 Thor::Correctable = DidYouMean::Correctable
 
 Thor::DynamicTask = Thor::DynamicCommand
-
-class Thor::Group
-  def _invoke_for_class_method(klass, command=T.unsafe(nil), *args, &block); end
-end
 
 Thor::HiddenTask = Thor::HiddenCommand
 
@@ -6519,6 +6596,8 @@ module Thor::Shell
 end
 
 class Thor::Shell::Basic
+  def answer_match(possibilities, answer, case_insensitive); end
+
   def as_unicode(); end
 
   def ask(statement, *args); end
@@ -6603,6 +6682,8 @@ class Thor::Shell::Basic
 end
 
 class Thor::Shell::Color
+  def are_colors_disabled?(); end
+
   def diff_lcs_loaded?(); end
 
   def output_diff_line(diff); end
@@ -6776,7 +6857,6 @@ end
 module URI
   extend ::URI::Escape
   def self.get_encoding(label); end
-
 end
 
 class UnboundMethod
