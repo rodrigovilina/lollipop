@@ -17,4 +17,3 @@ jobs:
         uses: docker://github/super-linter:v2.1.1
         env:
           DEFAULT_BRANCH: releases
-          VALIDATE_RUBY: false
