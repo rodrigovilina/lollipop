@@ -54,7 +54,7 @@ GEM
     launchy (2.5.0)
       addressable (~> 2.7)
     lefthook (0.7.2)
-    libyear-bundler (0.5.2)
+    libyear-bundler (0.5.3)
       bundler (>= 1.14, < 3)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
