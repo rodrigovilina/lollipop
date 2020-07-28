@@ -127,7 +127,7 @@ GEM
     simplecov-html (0.12.2)
     sorbet (0.5.5786)
       sorbet-static (= 0.5.5786)
-    sorbet-runtime (0.5.5786)
+    sorbet-runtime (0.5.5848)
     sorbet-static (0.5.5786-universal-darwin-14)
     thor (1.0.1)
     unicode-display_width (1.7.0)
