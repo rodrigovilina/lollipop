@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-set -euo pipefail
-IFS=$'\n\t'
-set -vx
-
-bin/bundle update
-bin/bundle audit update
-bin/lefthook install -afv
