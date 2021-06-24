@@ -13,12 +13,7 @@ El listado completo es:
  * `guard-shell`
  * `lefthook`
  * `libyear-bundler`
- * `rubocop`
- * `rubocop-performance`
- * `rubocop-rails`
- * `rubocop-rake`
- * `rubocop-rspec`
- * `rubocop-sorbet`
+ * `rubocop-recorrido`
  * `sorbet`
  * `sorbet-progress`
  * `terminal-notifier-guard`
