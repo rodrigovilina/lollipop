@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'lollipop'
-  spec.version       = '0.4.0'
+  spec.version       = '0.5.0'
 
   spec.authors       = ['vaporyhumo']
   spec.email         = ['roanvilina@gmail.com']
@@ -31,10 +31,12 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'guard-rspec'
   spec.add_dependency 'guard-rubocop'
   spec.add_dependency 'guard-shell'
+  spec.add_dependency 'irb'
   spec.add_dependency 'lefthook'
   spec.add_dependency 'libyear-bundler'
   spec.add_dependency 'mutant-rspec'
   spec.add_dependency 'rake'
+  spec.add_dependency 'rspec'
   spec.add_dependency 'rubocop'
   spec.add_dependency 'rubocop-performance'
   spec.add_dependency 'rubocop-rake'
