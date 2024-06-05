@@ -2,16 +2,16 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'lollipop'
-  spec.version       = '0.3.0'
+  spec.version       = '0.4.0'
 
   spec.authors       = ['vaporyhumo']
   spec.email         = ['roanvilina@gmail.com']
 
-  spec.summary       = 'Development dependencies for recorrido'
+  spec.summary       = 'Development dependencies collection'
   spec.description   = spec.summary
   spec.license       = 'Unlicense'
 
-  spec.homepage      = 'https://github.com/recorrido/lollipop'
+  spec.homepage      = 'https://github.com/vaporyhumo/lollipop'
   spec.metadata      = {
     'bug_tracker_uri' => "#{spec.homepage}/issues",
     'changelog_uri' => "#{spec.homepage}/blob/main/CHANGELOG.md",
@@ -21,10 +21,10 @@ Gem::Specification.new do |spec|
 
   spec.files = []
 
-  spec.required_ruby_version = '>= 2.6.0'
+  spec.required_ruby_version = Gem::Requirement::new('~> 3.1')
 
-  spec.add_dependency 'brakeman'
   spec.add_dependency 'bundler-audit'
+  spec.add_dependency 'byebug'
   spec.add_dependency 'flay'
   spec.add_dependency 'flog'
   spec.add_dependency 'guard'
@@ -33,7 +33,14 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'guard-shell'
   spec.add_dependency 'lefthook'
   spec.add_dependency 'libyear-bundler'
-  spec.add_dependency 'rubocop-recorrido'
+  spec.add_dependency 'mutant-rspec'
+  spec.add_dependency 'rake'
+  spec.add_dependency 'rubocop'
+  spec.add_dependency 'rubocop-performance'
+  spec.add_dependency 'rubocop-rake'
+  spec.add_dependency 'rubocop-rspec'
+  spec.add_dependency 'rubocop-sorbet'
+  spec.add_dependency 'simplecov'
   spec.add_dependency 'sorbet'
   spec.add_dependency 'sorbet-progress'
   spec.add_dependency 'terminal-notifier-guard'
