@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = 'lollipop'
-  spec.version       = '0.5.0'
+  spec.version       = '0.6.0'
 
   spec.authors       = ['vaporyhumo']
   spec.email         = ['roanvilina@gmail.com']
@@ -16,13 +16,15 @@ Gem::Specification.new do |spec|
     'bug_tracker_uri' => "#{spec.homepage}/issues",
     'changelog_uri' => "#{spec.homepage}/blob/main/CHANGELOG.md",
     'documentation_uri' => 'https://www.rubydoc.info/gems/lollipop',
-    'source_code_uri' => spec.homepage
+    'source_code_uri' => spec.homepage,
+    'rubygems_mfa_required' => 'true'
   }
 
   spec.files = []
 
   spec.required_ruby_version = Gem::Requirement::new('~> 3.1')
 
+  spec.add_dependency 'bundler'
   spec.add_dependency 'bundler-audit'
   spec.add_dependency 'byebug'
   spec.add_dependency 'flay'
@@ -42,6 +44,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'rubocop-rake'
   spec.add_dependency 'rubocop-rspec'
   spec.add_dependency 'rubocop-sorbet'
+  spec.add_dependency 'rubocop-vaporyhumo', '~> 0.2'
   spec.add_dependency 'simplecov'
   spec.add_dependency 'sorbet'
   spec.add_dependency 'sorbet-progress'
